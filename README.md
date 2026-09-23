@@ -24,7 +24,7 @@ The test partition is excluded from model fitting and hyperparameter tuning. Con
 
 ## Run the analysis
 
-Use Python 3.13. Download and extract `vehicles.csv` from the [assignment dataset archive](https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI-R2/module11/practical_application_II_starter.zip). Place it in a local `data/` folder beside the notebook, or set the `VEHICLES_CSV` environment variable to its full path. The dataset is excluded from Git.
+Use Python 3.13. The required dataset is included at [data/vehicles.csv](data/vehicles.csv), so no separate download is needed. It comes from the [assignment dataset archive](https://mo-pcco.s3.us-east-1.amazonaws.com/BH-PCMLAI-R2/module11/practical_application_II_starter.zip). The notebook loads the included CSV by default; optionally set `VEHICLES_CSV` to use a different file.
 
 From the repository folder:
 
